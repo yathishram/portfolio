@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/yathishr/static/css/main.7ff5f203.chunk.css",
-    "main.js": "/yathishr/static/js/main.5f22ee8c.chunk.js",
-    "main.js.map": "/yathishr/static/js/main.5f22ee8c.chunk.js.map",
+    "main.css": "/yathishr/static/css/main.fd08a79d.chunk.css",
+    "main.js": "/yathishr/static/js/main.6e4dc36a.chunk.js",
+    "main.js.map": "/yathishr/static/js/main.6e4dc36a.chunk.js.map",
     "runtime-main.js": "/yathishr/static/js/runtime-main.3281338c.js",
     "runtime-main.js.map": "/yathishr/static/js/runtime-main.3281338c.js.map",
-    "static/js/2.04a056d3.chunk.js": "/yathishr/static/js/2.04a056d3.chunk.js",
-    "static/js/2.04a056d3.chunk.js.map": "/yathishr/static/js/2.04a056d3.chunk.js.map",
+    "static/js/2.64b5cb47.chunk.js": "/yathishr/static/js/2.64b5cb47.chunk.js",
+    "static/js/2.64b5cb47.chunk.js.map": "/yathishr/static/js/2.64b5cb47.chunk.js.map",
     "index.html": "/yathishr/index.html",
-    "precache-manifest.c3f37af31801e2f42b86cc1e7cb0c62d.js": "/yathishr/precache-manifest.c3f37af31801e2f42b86cc1e7cb0c62d.js",
+    "precache-manifest.1571663feb2b00e9c9fef6e726d154b4.js": "/yathishr/precache-manifest.1571663feb2b00e9c9fef6e726d154b4.js",
     "service-worker.js": "/yathishr/service-worker.js",
-    "static/css/main.7ff5f203.chunk.css.map": "/yathishr/static/css/main.7ff5f203.chunk.css.map",
-    "static/js/2.04a056d3.chunk.js.LICENSE.txt": "/yathishr/static/js/2.04a056d3.chunk.js.LICENSE.txt"
+    "static/css/main.fd08a79d.chunk.css.map": "/yathishr/static/css/main.fd08a79d.chunk.css.map",
+    "static/js/2.64b5cb47.chunk.js.LICENSE.txt": "/yathishr/static/js/2.64b5cb47.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/yathishr/static/media/github.67910a24.svg",
+    "static/media/healthy-food.svg": "/yathishr/static/media/healthy-food.ba7b8a49.svg",
+    "static/media/instagram.svg": "/yathishr/static/media/instagram.62593ffa.svg",
+    "static/media/linkedin.svg": "/yathishr/static/media/linkedin.724ea5ad.svg",
+    "static/media/monsters.svg": "/yathishr/static/media/monsters.0cd902d7.svg",
+    "static/media/project.svg": "/yathishr/static/media/project.f423a3af.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3281338c.js",
-    "static/js/2.04a056d3.chunk.js",
-    "static/css/main.7ff5f203.chunk.css",
-    "static/js/main.5f22ee8c.chunk.js"
+    "static/js/2.64b5cb47.chunk.js",
+    "static/css/main.fd08a79d.chunk.css",
+    "static/js/main.6e4dc36a.chunk.js"
   ]
 }
