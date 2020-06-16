@@ -4,6 +4,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Odibee Sans", cursive;
 }
 
 code {
@@ -16,13 +17,62 @@ code {
 }
 
 .hero {
-  background: black;
-  min-height: 50vh;
+  background: white;
+  min-height: 80vh;
   max-width: 100%;
-  font-family: "Odibee Sans", cursive;
+  color: black;
+}
+
+.name-hero {
+  overflow-wrap: break-word;
 }
 
 .hello {
   margin-top: 60px;
   padding: 100px 0;
 }
+
+.about {
+  background: linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+  max-width: 100%;
+  color: white;
+}
+
+.about-content {
+  margin: 50px auto;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  line-height: 45px;
+}
+
+.card-text {
+  font-size: 1.4em;
+  font-weight: lighter;
+  padding: 20px 0;
+}
+
+.experience {
+  background: linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+  max-width: 100%;
+  color: white;
+}
+
+.finally {
+  background: white;
+  color: black;
+}
+
+.footer-content {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+}
+
+.icons {
+  padding-left: 140px;
+}
+
+/* .card-content {
+  background: linear-gradient(180deg, hsla(232, 73%, 65%, 1) 0%, hsla(279, 33%, 48%, 1) 100%);
+} */

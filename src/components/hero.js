@@ -1,7 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "../media/21472-code-debugging.json";
+import animationData from "../media/18123-developer.json";
 import ReactTypingEffect from "react-typing-effect";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const defaultOptions = {
@@ -12,29 +13,50 @@ const Hero = () => {
       preserveAspectRatio: "xMidYMid",
     },
   };
+
+  const coderVariants = {
+    hidden: {
+      x: "-600px",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        delay: 1,
+      },
+    },
+  };
+
+  const textVariants = {
+    hidden: {
+      x: "1500px",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        delay: 1,
+      },
+    },
+  };
   return (
     <div className="section hero">
       <div className="row">
-        <div className="col s12 m6 l6">
+        <motion.div variants={coderVariants} initial="hidden" animate="visible" className="col s12 m6 l6">
           <Lottie options={defaultOptions} height={400} />
-        </div>
-        <div className="col s12 m6 l6 white-text hello">
+        </motion.div>
+        <motion.div variants={textVariants} initial="hidden" animate="visible" className="col s12 m6 l6 hello">
           <h1>
-            <ReactTypingEffect text="Hello World," typingDelay={1000} eraseDelay={100000} />
+            <ReactTypingEffect text="Hello World," typingDelay={2000} eraseDelay={100000} />
           </h1>
-          <h3>
+          <h3 className="name-hero">
             <ReactTypingEffect
               className="String"
-              text={[
-                "01001001 00100111 01101101 00100000 01011001 01100001 01110100 01101000 01101001 01110011 01101000",
-                "I'm Yathish",
-              ]}
-              typingDelay={2500}
-              eraseDelay={2500}
+              text={["I'm Yathish R", "0x49276d2059617468697368"]}
+              typingDelay={4300}
+              eraseDelay={2800}
               speed={60}
             />
           </h3>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

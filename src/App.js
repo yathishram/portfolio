@@ -1,25 +1,21 @@
 import React, { Component } from "react";
-import Lottie from "react-lottie";
-import animationData from "./media/16957-comming-soon.json";
 import Hero from "./components/hero";
+import About from "./components/about";
+import Skills from "./components/skills";
+import Projects from "./components/projects";
+import Experience from "./components/experience";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
-    const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice",
-      },
-    };
-
     return (
       <>
         <Hero />
-        <div className="container center homeDiv">
-          <Lottie options={defaultOptions} />
-        </div>
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Footer />
       </>
     );
   }
