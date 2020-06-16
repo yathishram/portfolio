@@ -14,3 +14,15 @@ code {
   margin: 50px auto;
   padding: 50px 0;
 }
+
+.hero {
+  background: black;
+  min-height: 50vh;
+  max-width: 100%;
+  font-family: "Odibee Sans", cursive;
+}
+
+.hello {
+  margin-top: 60px;
+  padding: 100px 0;
+}
