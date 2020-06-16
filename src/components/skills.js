@@ -31,7 +31,7 @@ const Skills = () => {
         </p>
         <div className="row skill-cards">
           <div className="col s12 m6">
-            <motion.div whileHover={{ scale: 1.1 }} className="card z-depth-5">
+            <motion.div whileHover={{ scale: 1.1 }} className="card z-depth-3">
               <div className="card-image">
                 <Lottie options={defaultOptionsTwo} height={200} />
               </div>
@@ -49,7 +49,7 @@ const Skills = () => {
             </motion.div>
           </div>
           <div className="col s12 m6">
-            <motion.div whileHover={{ scale: 1.1 }} className="card z-depth-5">
+            <motion.div whileHover={{ scale: 1.1 }} className="card z-depth-3">
               <div className="card-image">
                 <Lottie options={defaultOptions} height={200} />
               </div>
