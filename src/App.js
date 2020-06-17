@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 import Hero from "./components/hero";
 import About from "./components/about";
 import Skills from "./components/skills";
@@ -7,6 +8,10 @@ import Experience from "./components/experience";
 import Footer from "./components/footer";
 
 class App extends Component {
+  componentDidMount() {
+    ReactGA.initialize("UA-169824403-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   render() {
     return (
       <>
