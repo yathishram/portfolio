@@ -10,7 +10,6 @@ import Footer from "./components/footer";
 class App extends Component {
   componentDidMount() {
     ReactGA.initialize("UA-169824403-1");
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }
   render() {
     return (
