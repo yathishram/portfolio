@@ -2,6 +2,7 @@ import React from "react";
 import insta from "../media/instagram.svg";
 import linkedIn from "../media/linkedin.svg";
 import github from "../media/github.svg";
+import mail from "../media/email.svg";
 
 const Footer = () => {
   return (
@@ -16,19 +17,24 @@ const Footer = () => {
           <p className="footer-content">Connect with me on</p>
           <div className="container center icons">
             <div className="row">
-              <div className="col s3">
+              <div className="col s6 m3">
                 <a href="https://www.instagram.com/yathish_ram/">
                   <img src={insta} style={{ height: "30px" }} alt="insta" />
                 </a>
               </div>
-              <div className="col s3">
+              <div className="col s6 m3">
                 <a href="www.linkedin.com/in/yathish-r-1b6040165">
                   <img src={linkedIn} style={{ height: "30px" }} alt="linkedin" />
                 </a>
               </div>
-              <div className="col s3">
+              <div className="col s6 m3">
                 <a href="https://github.com/yathishram?tab=repositories">
                   <img src={github} style={{ height: "30px" }} alt="github" />
+                </a>
+              </div>
+              <div className="col s6 m3">
+                <a href="mailto:123yathish.r@gmail.com">
+                  <img src={mail} style={{ height: "30px" }} alt="github" />
                 </a>
               </div>
             </div>

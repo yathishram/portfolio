@@ -47,15 +47,15 @@ const Hero = () => {
           <h1>
             <ReactTypingEffect text="Hello World," typingDelay={2000} eraseDelay={100000} />
           </h1>
-          <h3 className="name-hero">
+          <motion.h3 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 4 }} className="name-hero">
             <ReactTypingEffect
               className="String"
-              text={["I'm Yathish R", "0x49276d2059617468697368"]}
+              text="0a7f1ec7fab6eb12ce7090951668bce3f492db2ab093130ca2af2ae8fe09480f"
               typingDelay={4300}
-              eraseDelay={2800}
+              eraseDelay={10000}
               speed={60}
             />
-          </h3>
+          </motion.h3>
         </motion.div>
       </div>
     </div>
