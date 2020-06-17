@@ -33,14 +33,13 @@ const Skills = () => {
           <div className="col s12 m6">
             <motion.div whileHover={{ scale: 1.1 }} className="card z-depth-3">
               <div className="card-image">
-                <Lottie options={defaultOptionsTwo} height={200} />
+                <Lottie options={defaultOptionsTwo} height={200} style={{ marginTop: "10px" }} />
               </div>
               <div className="card-content">
                 <h4>Blockchain Developer</h4>
                 <hr />
                 <p className="card-text">
-                  I research about Blockchain and try to understand the complex stuff. And yeah, I also build Dapps on
-                  Ethereum and Hyperledger.{" "}
+                  I build applications on Blockchain and research about some of the complex stuff.
                 </p>
                 <h5>What do I know?</h5>
                 <hr />
@@ -57,8 +56,7 @@ const Skills = () => {
                 <h4>Full Stack Developer</h4>
                 <hr />
                 <p className="card-text">
-                  I break down applications and figure out how they work and build something around it. I sometimes
-                  don’t get CSS.
+                  I break down applications and figure out how they work and build something around it.
                 </p>
                 <h5>What do I know?</h5>
                 <hr />
