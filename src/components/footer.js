@@ -23,7 +23,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="col s6 m3">
-                <a href="www.linkedin.com/in/yathish-r-1b6040165">
+                <a href="https://www.linkedin.com/in/yathish-r-1b6040165">
                   <img src={linkedIn} style={{ height: "30px" }} alt="linkedin" />
                 </a>
               </div>
